@@ -1,0 +1,51 @@
+/* Dylan Silk - dylan_silk@student.uml.edu */
+
+* {
+    background-color: #092635;
+    color: #9EC8B9;
+}
+
+.header {
+    font-size: larger;
+    text-align: center;
+    margin: 5% auto;
+    background-color: #1B4242;
+    max-width: 50%;
+    border-radius: 5%;
+}
+
+.header h1 {
+    background-color: #1B4242;
+    margin: 5% 10%;
+    padding: 5%;
+}
+
+#board {
+    margin: 5% auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+#tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#draggable {
+    display: flex;
+    flex-direction: row;
+    background-color: #092635;
+    height: 90px;
+    width: 83px;
+    position: relative
+}
+
+#draggable img {
+    width: auto;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
